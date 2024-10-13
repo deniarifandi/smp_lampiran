@@ -67,7 +67,15 @@
     ?>
     <!-- --------------- start lampiran -->
     <div class="row">
-     <img src="Logo.png" style="max-width: 100%;">
+      <?php if ($_POST['jenjang'] == "1"){ ?>
+        <img src="logo.jpg" style="max-width: 100%;">   
+      <?php }else{
+        ?>
+        <img src="logosma.jpg" style="max-width: 100%;">   
+        <?php
+      } ?>
+     
+
      <h4 style="text-align:center">Holistic Progress Report</h4>
    </div>
 
@@ -161,7 +169,7 @@
           <td>
             <img src="centang.png" style="max-width:20px;
             <?php 
-              if ($nilai_final[$obj] > 90 || $nilai_final[$obj] < 83) {
+              if ($nilai_final[$obj] > 90 || $nilai_final[$obj] < 81) {
                 ?> display:none <?php
               }
             ?>
@@ -170,7 +178,7 @@
           <td>
             <img src="centang.png" style="max-width:20px;
             <?php 
-              if ($nilai_final[$obj] > 82 || $nilai_final[$obj] < 75) {
+              if ($nilai_final[$obj] > 80 || $nilai_final[$obj] < 75) {
                 ?> display:none <?php
               }
             ?>
@@ -179,7 +187,7 @@
           <td>
             <img src="centang.png" style="max-width:20px;
             <?php 
-              if ($nilai_final[$obj] > 74 || $nilai_final[$obj] <= 0) {
+              if ($nilai_final[$obj] > 74 || $nilai_final[$obj] < 0) {
                 ?> display:none <?php
               }
             ?>
@@ -202,8 +210,8 @@
       <td colspan="5" style="padding: 10px;">
        Formative Assessment Conversion Grades :<br>
        A: (91-100)<br>
-       B: (83-90)<br>
-       C: (75-82)<br>
+       B: (81-90)<br>
+       C: (75-80)<br>
        D: (≤74)<br>
 
      </td>

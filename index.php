@@ -15,6 +15,21 @@
         <div class="col-md-12">
           <h2>Class</h2>
           <input type="text" style="width:100%" rows="10" name="kelas" class="form-control"></input>
+          <br>
+         <div class="form-check">
+            <input class="form-check-input" type="radio" name="jenjang" id="flexRadioDefault1" required value="1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              SMP
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="jenjang" id="flexRadioDefault2" required value="2">
+            <label class="form-check-label" for="flexRadioDefault2">
+              SMA
+            </label>
+          </div>
+          <br>
+
         </div>
         <div class="col-md-12">
           <h2>Student (1 line per student)</h2>
