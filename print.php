@@ -68,7 +68,7 @@
     <!-- --------------- start lampiran -->
     <div class="row">
       <?php if ($_POST['jenjang'] == "1"){ ?>
-        <img src="logo.jpg" style="max-width: 100%;">   
+        <img src="logo2.jpg" style="max-width: 100%;">   
       <?php }else{
         ?>
         <img src="logosma.jpg" style="max-width: 100%;">   
