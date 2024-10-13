@@ -157,7 +157,7 @@
             <?php echo $objective_array[$i+1][$obj]; ?>
                <?php // echo $nilai_final[$obj]; ?>
           </td>
-          <td>
+          <td  style="text-align:center">
             <img src="centang.png" style="max-width:20px;
             <?php 
               if ($nilai_final[$obj] < 91) {
@@ -166,7 +166,7 @@
             ?>
             ">
           </td> 
-          <td>
+          <td style="text-align:center">
             <img src="centang.png" style="max-width:20px;
             <?php 
               if ($nilai_final[$obj] > 90 || $nilai_final[$obj] < 81) {
@@ -175,7 +175,7 @@
             ?>
             ">
           </td> 
-          <td>
+          <td style="text-align:center">
             <img src="centang.png" style="max-width:20px;
             <?php 
               if ($nilai_final[$obj] > 80 || $nilai_final[$obj] < 75) {
@@ -184,7 +184,7 @@
             ?>
             ">
           </td> 
-          <td>
+          <td style="text-align:center">
             <img src="centang.png" style="max-width:20px;
             <?php 
               if ($nilai_final[$obj] > 74 || $nilai_final[$obj] < 0) {
